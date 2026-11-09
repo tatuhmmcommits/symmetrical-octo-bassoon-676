@@ -16,7 +16,7 @@ sourceSets.client {
     java.srcDirs = ['client/java']
     resources.srcDirs = ['client/resources']
 }
-    }
+    
 }
 base {
 	archivesName = project.archives_base_name
