@@ -5,6 +5,16 @@ plugins {
 version = project.mod_version
 group = project.maven_group
 
+sourceSets {
+    main {
+        java.srcDirs = ['main/java']
+        resources.srcDirs = ['main/resources']
+    }
+    client {
+        java.srcDirs = ['client/java']
+        resources.srcDirs = ['client/resources']
+    }
+}
 base {
 	archivesName = project.archives_base_name
 }
