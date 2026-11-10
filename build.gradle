@@ -12,9 +12,11 @@ sourceSets {
     }
 }
 
-sourceSets.client {
-    java.srcDirs = ['client/java']
-    resources.srcDirs = ['client/resources']
+sourceSets {
+    main {
+        java.srcDirs = ['main/java']
+        resources.srcDirs = ['main/resources']
+    }
 }
     
 base {
